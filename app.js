@@ -390,8 +390,8 @@ var employee = {
     }
 }
 employee.printInfo() // ?
-// The result is: Car owner? true
-// same as (a) explanation
+// The result is: Car owner? Undefined
+// because to get the value type this.info.hasCar otherwise its not gonna read it or recognize it 
 
 
 // c) 
