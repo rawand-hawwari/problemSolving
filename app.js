@@ -401,7 +401,7 @@ var employee = {
         hasCar: true,
         hasPet: true,
         printAddress: function(){
-            return this.data.address;
+            console.log(this.data.address);
         },
         data: {
             address: "Zarqa"
@@ -410,5 +410,4 @@ var employee = {
 }
 employee.info.printAddress() // ?
 // The result is: Zarqa
-// same as (a) explanation
 // it gets the address from data properity and return it when printAddress() is called
